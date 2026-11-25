@@ -70,3 +70,37 @@
     padding: 15px 30px;
     border-radius: 15px;
 }
+
+.box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgba(254, 249, 242, 1);
+    height: 300px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.193);
+    margin-top: -40px;
+}
+
+.number {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.number span {
+    color: rgba(255, 156, 8, 1);
+}
+
+.box2 p {
+    margin: 0;
+}
