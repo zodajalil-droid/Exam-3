@@ -1,0 +1,29 @@
+.box{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(240, 236, 232, 1);
+}
+
+.a2{
+    display: flex;
+    gap: 20px;
+    margin-right: 500px;
+}
+
+.a3{
+    display: flex;
+    gap: 20px;
+}
+
+.button_header {
+    background-color: rgba(255, 156, 8, 1);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
