@@ -21,9 +21,43 @@
 
 .button_header {
     background-color: rgba(255, 156, 8, 1);
-    color: white;
+    color: black;
     border: none;
     font-size: 20px;
     padding: 15px 30px;
     border-radius: 15px;
+}
+
+.box1{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.button_header1{
+    background-color: white;
+    color: black;
+    border: 1px solid rgba(128, 128, 128, 0.333);
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.f1{
+    font-weight: 700;
+    font-size: 50px;
+    font-style: Bold;
+}
+
+.box1 .button_header{
+    margin-top: 20px;
+}
+
+.f2{
+    color: rgba(110, 110, 110, 1);
 }
