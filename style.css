@@ -61,3 +61,12 @@
 .f2{
     color: rgba(110, 110, 110, 1);
 }
+
+.button_header2 {
+    background-color: rgba(255, 156, 8, 1);
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
