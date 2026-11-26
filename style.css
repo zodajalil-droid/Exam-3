@@ -394,3 +394,93 @@ body {
     line-height: 1.6;
     margin: 0;
 }
+
+.box7 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0 35px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+
+.tex3 {
+    grid-column: 1 / -1;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.tex3 p {
+    color: #ff9800;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin: 0 0 14px;
+}
+
+.tex3 h1 {
+    font-size: 27px;
+    line-height: 1.35;
+    margin: 0;
+    max-width: 400px;
+}
+
+.button_header {
+    position: absolute;
+    right: 0;
+    top: 33px;
+    background-color: #ff9800;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.tex4,
+.tex5,
+.tex6,
+.tex7,
+.tex8,
+.tex9 {
+    border: 1px solid #eeeeee;
+    border-radius: 9px;
+    padding: 35px 15px;
+    text-align: center;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.05);
+}
+
+.tex4 img,
+.tex5 img,
+.tex6 img,
+.tex7 img,
+.tex8 img,
+.tex9 img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 14px;
+}
+
+.tex4 h3,
+.tex5 h3,
+.tex6 h3,
+.tex7 h3,
+.tex8 h3,
+.tex9 h3 {
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+.tex4 p,
+.tex5 p,
+.tex6 p,
+.tex7 p,
+.tex8 p,
+.tex9 p {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0;
+}
